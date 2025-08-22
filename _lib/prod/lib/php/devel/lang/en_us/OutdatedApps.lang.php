@@ -1,0 +1,36 @@
+<?php
+$nm_lang['page_title']                      = "Incompatible applications";
+$nm_lang['outdate_apps_message_ok']         = "Verification successful.";
+$nm_lang['outdate_apps_btn_close']          = "Close";
+$nm_lang['outdate_apps_btn_back']           = "Back";
+$nm_lang['outdate_apps_label_dir']          = "Directory";
+$nm_lang['outdate_apps_label_apps']         = "Applications";
+$nm_lang['outdate_apps_label_view']         = "View";
+$nm_lang['outdate_apps_label_app']          = "Application";
+$nm_lang['outdate_apps_label_app_prod_ver'] = "Deployment version";
+$nm_lang['outdate_apps_label_prod_ver']     = "Version of this environment";
+$nm_lang['outdate_apps_label_scanner']      = "Check";
+$nm_lang['outdate_apps_label_date']         = "Last check";
+$nm_lang['outdate_apps_btn_view']           = "View incompatibilities";
+$nm_lang['outdate_apps_help_app_prod']      = "Version of the Scriptcase development environment in which this application was deployed.";
+$nm_lang['outdate_apps_help_prod']          = "Production environment version being used.";
+$nm_lang['outdate_apps_label_solution']     = "Solution";
+$nm_lang['outdate_apps_label_deploy']       = "Deploy the application again";
+$nm_lang['outdate_apps_label_update']       = "Update this production environment";
+$nm_lang['outdate_apps_empty']              = "To check for incompatible apps, you need to add a valid directory. Click the button below to add a directory.";
+$nm_lang['outdate_apps_btn_app_dir']        = "Add directory";
+$nm_lang['outdate_apps_label_pub_ok']       = "Compatible deployment";
+$nm_lang['outdate_apps_not_verified']       = "Not verified";
+$nm_lang['outdate_apps_dir_err']            = "Inexistent directory";
+$nm_lang['outdate_apps_dir_not_foud']       = "Application directory does not exist";
+$nm_lang['outdate_apps_app_obsolete']       = "Obsolete application";
+$nm_lang['outdate_apps_app_not_found']      = "Application does not exist";
+$nm_lang['outdate_apps_app_label_not_found']= "Excluded applications";
+$nm_lang['outdate_apps_dir_not_sc']         = "Incompatible directory";
+$nm_lang['outdate_apps_app_deleted']        = "Item removed successfully.";
+$nm_lang['outdate_apps_general_err']        = "An unexpected error occurred.<br> Please contact your system administrator.";
+$nm_lang['outdate_apps_delete_app']         = "Delete";
+$nm_lang['outdate_apps_btn_cancel']         = "Cancel";
+$nm_lang['outdate_apps_btn_confirm']        = "Confirm";
+$nm_lang['outdate_apps_modal_request']      = "Do you really want to proceed with this action?";
+?>

@@ -1,0 +1,18 @@
+.css_userid_int_label, .css_userid_int_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_userid_int_grid_line, .css_userid_int_grid_line:hover {vertical-align: top;text-align: right;}
+.css_username_label, .css_username_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_username_grid_line, .css_username_grid_line:hover {vertical-align: top;text-align: left;}
+.css_dept_label, .css_dept_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_dept_grid_line, .css_dept_grid_line:hover {vertical-align: top;text-align: left;}
+.css_designation_label, .css_designation_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_designation_grid_line, .css_designation_grid_line:hover {vertical-align: top;text-align: left;}
+.css_pay_startdate_label, .css_pay_startdate_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_pay_startdate_grid_line, .css_pay_startdate_grid_line:hover {vertical-align: top;text-align: center;}
+.css_pay_enddate_label, .css_pay_enddate_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_pay_enddate_grid_line, .css_pay_enddate_grid_line:hover {vertical-align: top;text-align: center;}
+.css_sal_brut_reg_label, .css_sal_brut_reg_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_sal_brut_reg_grid_line, .css_sal_brut_reg_grid_line:hover {vertical-align: top;text-align: right;}
+.css_income_comm_label, .css_income_comm_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_income_comm_grid_line, .css_income_comm_grid_line:hover {vertical-align: top;text-align: right;}
+.css_sal_net_label, .css_sal_net_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_sal_net_grid_line, .css_sal_net_grid_line:hover {vertical-align: top;text-align: right;}

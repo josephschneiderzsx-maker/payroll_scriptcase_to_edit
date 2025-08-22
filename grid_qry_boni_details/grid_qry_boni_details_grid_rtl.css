@@ -1,0 +1,38 @@
+.css_username_label, .css_username_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_username_grid_line, .css_username_grid_line:hover {vertical-align: top;text-align: right;}
+.css_sal_brut_reg_label, .css_sal_brut_reg_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_sal_brut_reg_grid_line, .css_sal_brut_reg_grid_line:hover {vertical-align: top;text-align: right;}
+.css_sal_brut_reg_tot_ger, .css_sal_brut_reg_tot_ger:hover {text-align: ;text-align: right;font-weight:bold;}
+.css_sal_suppl_label, .css_sal_suppl_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_sal_suppl_grid_line, .css_sal_suppl_grid_line:hover {vertical-align: top;text-align: right;}
+.css_sal_suppl_tot_ger, .css_sal_suppl_tot_ger:hover {text-align: ;text-align: right;font-weight:bold;}
+.css_sal_holiday_worked_suppl_label, .css_sal_holiday_worked_suppl_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_sal_holiday_worked_suppl_grid_line, .css_sal_holiday_worked_suppl_grid_line:hover {vertical-align: top;text-align: right;}
+.css_sal_holiday_worked_suppl_tot_ger, .css_sal_holiday_worked_suppl_tot_ger:hover {text-align: ;text-align: right;font-weight:bold;}
+.css_sal_holiday_suppl_label, .css_sal_holiday_suppl_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_sal_holiday_suppl_grid_line, .css_sal_holiday_suppl_grid_line:hover {vertical-align: top;text-align: right;}
+.css_sal_holiday_suppl_tot_ger, .css_sal_holiday_suppl_tot_ger:hover {text-align: ;text-align: right;font-weight:bold;}
+.css_incentive_label, .css_incentive_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_incentive_grid_line, .css_incentive_grid_line:hover {vertical-align: top;text-align: right;}
+.css_incentive_tot_ger, .css_incentive_tot_ger:hover {text-align: ;text-align: right;font-weight:bold;}
+.css_bank_number_label, .css_bank_number_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_bank_number_grid_line, .css_bank_number_grid_line:hover {vertical-align: top;text-align: right;}
+.css_userid_int_label, .css_userid_int_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_userid_int_grid_line, .css_userid_int_grid_line:hover {vertical-align: top;text-align: right;}
+.css_userid_int_tot_ger, .css_userid_int_tot_ger:hover {text-align: ;text-align: right;font-weight:bold;}
+.css_hiredate_label, .css_hiredate_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_hiredate_grid_line, .css_hiredate_grid_line:hover {vertical-align: top;text-align: center;}
+.css_dept_label, .css_dept_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_dept_grid_line, .css_dept_grid_line:hover {vertical-align: top;text-align: right;}
+.css_sal_brut_reg_S_sub_tot, .css_sal_brut_reg_S_sub_tot:hover {text-align: right;text-align: right;font-weight:bold;}
+.css_sal_brut_reg_S_tot_ger, .css_sal_brut_reg_S_tot_ger:hover {text-align: right;font-weight:bold;}
+.css_sal_suppl_S_sub_tot, .css_sal_suppl_S_sub_tot:hover {text-align: right;text-align: right;font-weight:bold;}
+.css_sal_suppl_S_tot_ger, .css_sal_suppl_S_tot_ger:hover {text-align: right;font-weight:bold;}
+.css_sal_holiday_worked_suppl_S_sub_tot, .css_sal_holiday_worked_suppl_S_sub_tot:hover {text-align: right;text-align: right;font-weight:bold;}
+.css_sal_holiday_worked_suppl_S_tot_ger, .css_sal_holiday_worked_suppl_S_tot_ger:hover {text-align: right;font-weight:bold;}
+.css_sal_holiday_suppl_S_sub_tot, .css_sal_holiday_suppl_S_sub_tot:hover {text-align: right;text-align: right;font-weight:bold;}
+.css_sal_holiday_suppl_S_tot_ger, .css_sal_holiday_suppl_S_tot_ger:hover {text-align: right;font-weight:bold;}
+.css_incentive_S_sub_tot, .css_incentive_S_sub_tot:hover {text-align: right;text-align: right;font-weight:bold;}
+.css_incentive_S_tot_ger, .css_incentive_S_tot_ger:hover {text-align: right;font-weight:bold;}
+.css_userid_int_D_sub_tot, .css_userid_int_D_sub_tot:hover {text-align: right;text-align: right;font-weight:bold;}
+.css_userid_int_D_tot_ger, .css_userid_int_D_tot_ger:hover {text-align: right;font-weight:bold;}

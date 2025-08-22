@@ -1,0 +1,46 @@
+.css_userid_int_label, .css_userid_int_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_userid_int_grid_line, .css_userid_int_grid_line:hover {vertical-align: top;text-align: right;}
+.css_username_label, .css_username_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_username_grid_line, .css_username_grid_line:hover {vertical-align: top;text-align: left;}
+.css_pay_startdate_label, .css_pay_startdate_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_pay_startdate_grid_line, .css_pay_startdate_grid_line:hover {vertical-align: top;text-align: center;}
+.css_pay_enddate_label, .css_pay_enddate_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_pay_enddate_grid_line, .css_pay_enddate_grid_line:hover {vertical-align: top;text-align: center;}
+.css_hh_sunday_label, .css_hh_sunday_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_hh_sunday_grid_line, .css_hh_sunday_grid_line:hover {vertical-align: top;text-align: right;}
+.css_hh_sunday_tot_ger, .css_hh_sunday_tot_ger:hover {text-align: ;text-align: right;}
+.css_hh_offday_label, .css_hh_offday_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_hh_offday_grid_line, .css_hh_offday_grid_line:hover {vertical-align: top;text-align: right;}
+.css_hh_offday_tot_ger, .css_hh_offday_tot_ger:hover {text-align: ;text-align: right;}
+.css_hh_leavetype_label, .css_hh_leavetype_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_hh_leavetype_grid_line, .css_hh_leavetype_grid_line:hover {vertical-align: top;text-align: right;}
+.css_hh_leavetype_tot_ger, .css_hh_leavetype_tot_ger:hover {text-align: ;text-align: right;}
+.css_rate_work_label, .css_rate_work_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_rate_work_grid_line, .css_rate_work_grid_line:hover {vertical-align: top;text-align: right;}
+.css_sal_sunday_label, .css_sal_sunday_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_sal_sunday_grid_line, .css_sal_sunday_grid_line:hover {vertical-align: top;text-align: right;}
+.css_sal_sunday_tot_ger, .css_sal_sunday_tot_ger:hover {text-align: ;text-align: right;}
+.css_sal_holiday_label, .css_sal_holiday_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_sal_holiday_grid_line, .css_sal_holiday_grid_line:hover {vertical-align: top;text-align: right;}
+.css_sal_holiday_tot_ger, .css_sal_holiday_tot_ger:hover {text-align: ;text-align: right;}
+.css_sal_leavetype_label, .css_sal_leavetype_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_sal_leavetype_grid_line, .css_sal_leavetype_grid_line:hover {vertical-align: top;text-align: right;}
+.css_sal_leavetype_tot_ger, .css_sal_leavetype_tot_ger:hover {text-align: ;text-align: right;}
+.css_hiredate_label, .css_hiredate_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_hiredate_grid_line, .css_hiredate_grid_line:hover {vertical-align: top;text-align: center;}
+.css_dept_label, .css_dept_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_dept_grid_line, .css_dept_grid_line:hover {vertical-align: top;text-align: left;}
+.css_designation_label, .css_designation_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_designation_grid_line, .css_designation_grid_line:hover {vertical-align: top;text-align: left;}
+.css_hh_sunday_S_sub_tot, .css_hh_sunday_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_hh_sunday_S_tot_ger, .css_hh_sunday_S_tot_ger:hover {text-align: right;}
+.css_hh_offday_S_sub_tot, .css_hh_offday_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_hh_offday_S_tot_ger, .css_hh_offday_S_tot_ger:hover {text-align: right;}
+.css_hh_leavetype_S_sub_tot, .css_hh_leavetype_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_hh_leavetype_S_tot_ger, .css_hh_leavetype_S_tot_ger:hover {text-align: right;}
+.css_sal_sunday_S_sub_tot, .css_sal_sunday_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_sal_sunday_S_tot_ger, .css_sal_sunday_S_tot_ger:hover {text-align: right;}
+.css_sal_holiday_S_sub_tot, .css_sal_holiday_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_sal_holiday_S_tot_ger, .css_sal_holiday_S_tot_ger:hover {text-align: right;}
+.css_sal_leavetype_S_sub_tot, .css_sal_leavetype_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_sal_leavetype_S_tot_ger, .css_sal_leavetype_S_tot_ger:hover {text-align: right;}

@@ -1,0 +1,69 @@
+.css_userid_int_label, .css_userid_int_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_userid_int_grid_line, .css_userid_int_grid_line:hover {vertical-align: top;text-align: right;}
+.css_username_label, .css_username_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_username_grid_line, .css_username_grid_line:hover {vertical-align: top;text-align: right;}
+.css_pay_startdate_label, .css_pay_startdate_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_pay_startdate_grid_line, .css_pay_startdate_grid_line:hover {vertical-align: top;text-align: center;}
+.css_pay_enddate_label, .css_pay_enddate_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_pay_enddate_grid_line, .css_pay_enddate_grid_line:hover {vertical-align: top;text-align: center;}
+.css_tax_cass_label, .css_tax_cass_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_tax_cass_grid_line, .css_tax_cass_grid_line:hover {vertical-align: top;text-align: right;}
+.css_tax_cass_tot_ger, .css_tax_cass_tot_ger:hover {text-align: ;text-align: right;}
+.css_tax_cfgdct_label, .css_tax_cfgdct_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_tax_cfgdct_grid_line, .css_tax_cfgdct_grid_line:hover {vertical-align: top;text-align: right;}
+.css_tax_cfgdct_tot_ger, .css_tax_cfgdct_tot_ger:hover {text-align: ;text-align: right;}
+.css_tax_fdu_label, .css_tax_fdu_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_tax_fdu_grid_line, .css_tax_fdu_grid_line:hover {vertical-align: top;text-align: right;}
+.css_tax_fdu_tot_ger, .css_tax_fdu_tot_ger:hover {text-align: ;text-align: right;}
+.css_tax_iris_label, .css_tax_iris_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_tax_iris_grid_line, .css_tax_iris_grid_line:hover {vertical-align: top;text-align: right;}
+.css_tax_iris_tot_ger, .css_tax_iris_tot_ger:hover {text-align: ;text-align: right;}
+.css_tax_ona_label, .css_tax_ona_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_tax_ona_grid_line, .css_tax_ona_grid_line:hover {vertical-align: top;text-align: right;}
+.css_tax_ona_tot_ger, .css_tax_ona_tot_ger:hover {text-align: ;text-align: right;}
+.css_tax_iric_label, .css_tax_iric_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_tax_iric_grid_line, .css_tax_iric_grid_line:hover {vertical-align: top;text-align: right;}
+.css_tax_iric_tot_ger, .css_tax_iric_tot_ger:hover {text-align: ;text-align: right;}
+.css_dedeuct_cons_label, .css_dedeuct_cons_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_dedeuct_cons_grid_line, .css_dedeuct_cons_grid_line:hover {vertical-align: top;text-align: right;}
+.css_dedeuct_cons_tot_ger, .css_dedeuct_cons_tot_ger:hover {text-align: ;text-align: right;}
+.css_loan_deduction_label, .css_loan_deduction_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_loan_deduction_grid_line, .css_loan_deduction_grid_line:hover {vertical-align: top;text-align: right;}
+.css_loan_deduction_tot_ger, .css_loan_deduction_tot_ger:hover {text-align: ;text-align: right;}
+.css_loan_deduction_bank_label, .css_loan_deduction_bank_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_loan_deduction_bank_grid_line, .css_loan_deduction_bank_grid_line:hover {vertical-align: top;text-align: right;}
+.css_loan_deduction_bank_tot_ger, .css_loan_deduction_bank_tot_ger:hover {text-align: ;text-align: right;}
+.css_other_deduct_label, .css_other_deduct_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_other_deduct_grid_line, .css_other_deduct_grid_line:hover {vertical-align: top;text-align: right;}
+.css_other_deduct_tot_ger, .css_other_deduct_tot_ger:hover {text-align: ;text-align: right;}
+.css_total_deduct_label, .css_total_deduct_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_total_deduct_grid_line, .css_total_deduct_grid_line:hover {vertical-align: top;text-align: right;}
+.css_total_deduct_tot_ger, .css_total_deduct_tot_ger:hover {text-align: ;text-align: right;}
+.css_hiredate_label, .css_hiredate_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_hiredate_grid_line, .css_hiredate_grid_line:hover {vertical-align: top;text-align: center;}
+.css_dept_label, .css_dept_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_dept_grid_line, .css_dept_grid_line:hover {vertical-align: top;text-align: right;}
+.css_designation_label, .css_designation_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_designation_grid_line, .css_designation_grid_line:hover {vertical-align: top;text-align: right;}
+.css_tax_cass_S_sub_tot, .css_tax_cass_S_sub_tot:hover {text-align: right;text-align: right;}
+.css_tax_cass_S_tot_ger, .css_tax_cass_S_tot_ger:hover {text-align: right;}
+.css_tax_cfgdct_S_sub_tot, .css_tax_cfgdct_S_sub_tot:hover {text-align: right;text-align: right;}
+.css_tax_cfgdct_S_tot_ger, .css_tax_cfgdct_S_tot_ger:hover {text-align: right;}
+.css_tax_fdu_S_sub_tot, .css_tax_fdu_S_sub_tot:hover {text-align: right;text-align: right;}
+.css_tax_fdu_S_tot_ger, .css_tax_fdu_S_tot_ger:hover {text-align: right;}
+.css_tax_iris_S_sub_tot, .css_tax_iris_S_sub_tot:hover {text-align: right;text-align: right;}
+.css_tax_iris_S_tot_ger, .css_tax_iris_S_tot_ger:hover {text-align: right;}
+.css_tax_ona_S_sub_tot, .css_tax_ona_S_sub_tot:hover {text-align: right;text-align: right;}
+.css_tax_ona_S_tot_ger, .css_tax_ona_S_tot_ger:hover {text-align: right;}
+.css_tax_iric_S_sub_tot, .css_tax_iric_S_sub_tot:hover {text-align: right;text-align: right;}
+.css_tax_iric_S_tot_ger, .css_tax_iric_S_tot_ger:hover {text-align: right;}
+.css_dedeuct_cons_S_sub_tot, .css_dedeuct_cons_S_sub_tot:hover {text-align: right;text-align: right;}
+.css_dedeuct_cons_S_tot_ger, .css_dedeuct_cons_S_tot_ger:hover {text-align: right;}
+.css_loan_deduction_S_sub_tot, .css_loan_deduction_S_sub_tot:hover {text-align: right;text-align: right;}
+.css_loan_deduction_S_tot_ger, .css_loan_deduction_S_tot_ger:hover {text-align: right;}
+.css_loan_deduction_bank_S_sub_tot, .css_loan_deduction_bank_S_sub_tot:hover {text-align: right;text-align: right;}
+.css_loan_deduction_bank_S_tot_ger, .css_loan_deduction_bank_S_tot_ger:hover {text-align: right;}
+.css_other_deduct_S_sub_tot, .css_other_deduct_S_sub_tot:hover {text-align: right;text-align: right;}
+.css_other_deduct_S_tot_ger, .css_other_deduct_S_tot_ger:hover {text-align: right;}
+.css_total_deduct_S_sub_tot, .css_total_deduct_S_sub_tot:hover {text-align: right;text-align: right;}
+.css_total_deduct_S_tot_ger, .css_total_deduct_S_tot_ger:hover {text-align: right;}

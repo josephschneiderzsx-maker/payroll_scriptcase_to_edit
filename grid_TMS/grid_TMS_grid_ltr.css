@@ -1,0 +1,28 @@
+.css_userid_int_label, .css_userid_int_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_userid_int_grid_line, .css_userid_int_grid_line:hover {vertical-align: top;text-align: right;}
+.css_userid_int_tot_ger, .css_userid_int_tot_ger:hover {text-align: ;text-align: right;}
+.css_username_label, .css_username_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_username_grid_line, .css_username_grid_line:hover {vertical-align: top;text-align: left;}
+.css_pay_startdate_label, .css_pay_startdate_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_pay_startdate_grid_line, .css_pay_startdate_grid_line:hover {vertical-align: top;text-align: center;}
+.css_pay_enddate_label, .css_pay_enddate_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_pay_enddate_grid_line, .css_pay_enddate_grid_line:hover {vertical-align: top;text-align: center;}
+.css_sal_net_label, .css_sal_net_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_sal_net_grid_line, .css_sal_net_grid_line:hover {vertical-align: top;text-align: right;}
+.css_sal_net_tot_ger, .css_sal_net_tot_ger:hover {text-align: ;text-align: right;}
+.css_tax_tms_label, .css_tax_tms_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_tax_tms_grid_line, .css_tax_tms_grid_line:hover {vertical-align: top;text-align: right;}
+.css_tax_tms_tot_ger, .css_tax_tms_tot_ger:hover {text-align: ;text-align: right;}
+.css_tax_stamp_label, .css_tax_stamp_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_tax_stamp_grid_line, .css_tax_stamp_grid_line:hover {vertical-align: top;text-align: right;}
+.css_tax_stamp_tot_ger, .css_tax_stamp_tot_ger:hover {text-align: ;text-align: right;}
+.css_dept_label, .css_dept_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_dept_grid_line, .css_dept_grid_line:hover {vertical-align: top;text-align: left;}
+.css_userid_int_D_sub_tot, .css_userid_int_D_sub_tot:hover {text-align: left;text-align: right;}
+.css_userid_int_D_tot_ger, .css_userid_int_D_tot_ger:hover {text-align: right;}
+.css_sal_net_S_sub_tot, .css_sal_net_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_sal_net_S_tot_ger, .css_sal_net_S_tot_ger:hover {text-align: right;}
+.css_tax_tms_S_sub_tot, .css_tax_tms_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_tax_tms_S_tot_ger, .css_tax_tms_S_tot_ger:hover {text-align: right;}
+.css_tax_stamp_S_sub_tot, .css_tax_stamp_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_tax_stamp_S_tot_ger, .css_tax_stamp_S_tot_ger:hover {text-align: right;}

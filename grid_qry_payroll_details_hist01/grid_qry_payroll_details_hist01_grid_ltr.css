@@ -1,0 +1,224 @@
+.css_username_label, .css_username_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_username_grid_line, .css_username_grid_line:hover {vertical-align: top;text-align: left;}
+.css_pay_startdate_label, .css_pay_startdate_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_pay_startdate_grid_line, .css_pay_startdate_grid_line:hover {vertical-align: top;text-align: center;}
+.css_pay_enddate_label, .css_pay_enddate_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_pay_enddate_grid_line, .css_pay_enddate_grid_line:hover {vertical-align: top;text-align: center;}
+.css_sal_brut_reg_label, .css_sal_brut_reg_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_sal_brut_reg_grid_line, .css_sal_brut_reg_grid_line:hover {vertical-align: top;text-align: right;}
+.css_sal_brut_reg_tot_ger, .css_sal_brut_reg_tot_ger:hover {text-align: ;text-align: right;}
+.css_income_workday_ot_label, .css_income_workday_ot_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_income_workday_ot_grid_line, .css_income_workday_ot_grid_line:hover {vertical-align: top;text-align: right;}
+.css_income_workday_ot_tot_ger, .css_income_workday_ot_tot_ger:hover {text-align: ;text-align: right;}
+.css_income_holiday_ot_label, .css_income_holiday_ot_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_income_holiday_ot_grid_line, .css_income_holiday_ot_grid_line:hover {vertical-align: top;text-align: right;}
+.css_income_holiday_ot_tot_ger, .css_income_holiday_ot_tot_ger:hover {text-align: ;text-align: right;}
+.css_income_restday_ot_label, .css_income_restday_ot_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_income_restday_ot_grid_line, .css_income_restday_ot_grid_line:hover {vertical-align: top;text-align: right;}
+.css_income_restday_ot_tot_ger, .css_income_restday_ot_tot_ger:hover {text-align: ;text-align: right;}
+.css_income_offday_ot_label, .css_income_offday_ot_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_income_offday_ot_grid_line, .css_income_offday_ot_grid_line:hover {vertical-align: top;text-align: right;}
+.css_income_offday_ot_tot_ger, .css_income_offday_ot_tot_ger:hover {text-align: ;text-align: right;}
+.css_incentive_label, .css_incentive_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_incentive_grid_line, .css_incentive_grid_line:hover {vertical-align: top;text-align: right;}
+.css_incentive_tot_ger, .css_incentive_tot_ger:hover {text-align: ;text-align: right;}
+.css_income_comm_label, .css_income_comm_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_income_comm_grid_line, .css_income_comm_grid_line:hover {vertical-align: top;text-align: right;}
+.css_income_comm_tot_ger, .css_income_comm_tot_ger:hover {text-align: ;text-align: right;}
+.css_rappel_label, .css_rappel_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_rappel_grid_line, .css_rappel_grid_line:hover {vertical-align: top;text-align: right;}
+.css_rappel_tot_ger, .css_rappel_tot_ger:hover {text-align: ;text-align: right;}
+.css_tax_cass_label, .css_tax_cass_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_tax_cass_grid_line, .css_tax_cass_grid_line:hover {vertical-align: top;text-align: right;}
+.css_tax_cass_tot_ger, .css_tax_cass_tot_ger:hover {text-align: ;text-align: right;}
+.css_tax_cfgdct_label, .css_tax_cfgdct_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_tax_cfgdct_grid_line, .css_tax_cfgdct_grid_line:hover {vertical-align: top;text-align: right;}
+.css_tax_cfgdct_tot_ger, .css_tax_cfgdct_tot_ger:hover {text-align: ;text-align: right;}
+.css_tax_fdu_label, .css_tax_fdu_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_tax_fdu_grid_line, .css_tax_fdu_grid_line:hover {vertical-align: top;text-align: right;}
+.css_tax_fdu_tot_ger, .css_tax_fdu_tot_ger:hover {text-align: ;text-align: right;}
+.css_tax_iris_label, .css_tax_iris_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_tax_iris_grid_line, .css_tax_iris_grid_line:hover {vertical-align: top;text-align: right;}
+.css_tax_iris_tot_ger, .css_tax_iris_tot_ger:hover {text-align: ;text-align: right;}
+.css_tax_ona_label, .css_tax_ona_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_tax_ona_grid_line, .css_tax_ona_grid_line:hover {vertical-align: top;text-align: right;}
+.css_tax_ona_tot_ger, .css_tax_ona_tot_ger:hover {text-align: ;text-align: right;}
+.css_tax_iric_label, .css_tax_iric_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_tax_iric_grid_line, .css_tax_iric_grid_line:hover {vertical-align: top;text-align: right;}
+.css_tax_iric_tot_ger, .css_tax_iric_tot_ger:hover {text-align: ;text-align: right;}
+.css_dedeuct_cons_label, .css_dedeuct_cons_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_dedeuct_cons_grid_line, .css_dedeuct_cons_grid_line:hover {vertical-align: top;text-align: right;}
+.css_dedeuct_cons_tot_ger, .css_dedeuct_cons_tot_ger:hover {text-align: ;text-align: right;}
+.css_loan_deduction_label, .css_loan_deduction_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_loan_deduction_grid_line, .css_loan_deduction_grid_line:hover {vertical-align: top;text-align: right;}
+.css_loan_deduction_tot_ger, .css_loan_deduction_tot_ger:hover {text-align: ;text-align: right;}
+.css_loan_deduction_bank_label, .css_loan_deduction_bank_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_loan_deduction_bank_grid_line, .css_loan_deduction_bank_grid_line:hover {vertical-align: top;text-align: right;}
+.css_loan_deduction_bank_tot_ger, .css_loan_deduction_bank_tot_ger:hover {text-align: ;text-align: right;}
+.css_other_deduct_label, .css_other_deduct_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_other_deduct_grid_line, .css_other_deduct_grid_line:hover {vertical-align: top;text-align: right;}
+.css_other_deduct_tot_ger, .css_other_deduct_tot_ger:hover {text-align: ;text-align: right;}
+.css_total_deduct_label, .css_total_deduct_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_total_deduct_grid_line, .css_total_deduct_grid_line:hover {vertical-align: top;text-align: right;}
+.css_total_deduct_tot_ger, .css_total_deduct_tot_ger:hover {text-align: ;text-align: right;}
+.css_sal_net_label, .css_sal_net_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_sal_net_grid_line, .css_sal_net_grid_line:hover {vertical-align: top;text-align: right;}
+.css_sal_net_tot_ger, .css_sal_net_tot_ger:hover {text-align: ;text-align: right;}
+.css_bank_number_label, .css_bank_number_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_bank_number_grid_line, .css_bank_number_grid_line:hover {vertical-align: top;text-align: left;}
+.css_userid_int_label, .css_userid_int_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_userid_int_grid_line, .css_userid_int_grid_line:hover {vertical-align: top;text-align: right;}
+.css_userid_int_tot_ger, .css_userid_int_tot_ger:hover {text-align: ;text-align: right;font-weight:bold;}
+.css_hiredate_label, .css_hiredate_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_hiredate_grid_line, .css_hiredate_grid_line:hover {vertical-align: top;text-align: center;}
+.css_dept_label, .css_dept_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_dept_grid_line, .css_dept_grid_line:hover {vertical-align: top;text-align: left;}
+.css_rate_salf_label, .css_rate_salf_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_rate_salf_grid_line, .css_rate_salf_grid_line:hover {vertical-align: top;text-align: right;}
+.css_rate_salf_tot_ger, .css_rate_salf_tot_ger:hover {text-align: ;text-align: right;}
+.css_rate_work_label, .css_rate_work_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_rate_work_grid_line, .css_rate_work_grid_line:hover {vertical-align: top;text-align: right;}
+.css_rate_work_tot_ger, .css_rate_work_tot_ger:hover {text-align: ;text-align: right;}
+.css_rate_ot_factor_label, .css_rate_ot_factor_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_rate_ot_factor_grid_line, .css_rate_ot_factor_grid_line:hover {vertical-align: top;text-align: right;}
+.css_rate_ot_holiday_factor_label, .css_rate_ot_holiday_factor_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_rate_ot_holiday_factor_grid_line, .css_rate_ot_holiday_factor_grid_line:hover {vertical-align: top;text-align: right;}
+.css_rate_ot_restday_factor_label, .css_rate_ot_restday_factor_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_rate_ot_restday_factor_grid_line, .css_rate_ot_restday_factor_grid_line:hover {vertical-align: top;text-align: right;}
+.css_rate_ot_offday_factor_label, .css_rate_ot_offday_factor_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_rate_ot_offday_factor_grid_line, .css_rate_ot_offday_factor_grid_line:hover {vertical-align: top;text-align: right;}
+.css_income_workday_label, .css_income_workday_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_income_workday_grid_line, .css_income_workday_grid_line:hover {vertical-align: top;text-align: right;}
+.css_income_workday_tot_ger, .css_income_workday_tot_ger:hover {text-align: ;text-align: right;}
+.css_income_holiday_label, .css_income_holiday_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_income_holiday_grid_line, .css_income_holiday_grid_line:hover {vertical-align: top;text-align: right;}
+.css_income_holiday_tot_ger, .css_income_holiday_tot_ger:hover {text-align: ;text-align: right;}
+.css_income_restday_label, .css_income_restday_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_income_restday_grid_line, .css_income_restday_grid_line:hover {vertical-align: top;text-align: right;}
+.css_income_restday_tot_ger, .css_income_restday_tot_ger:hover {text-align: ;text-align: right;}
+.css_income_offday_label, .css_income_offday_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_income_offday_grid_line, .css_income_offday_grid_line:hover {vertical-align: top;text-align: right;}
+.css_income_offday_tot_ger, .css_income_offday_tot_ger:hover {text-align: ;text-align: right;}
+.css_hh_sunday_label, .css_hh_sunday_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_hh_sunday_grid_line, .css_hh_sunday_grid_line:hover {vertical-align: top;text-align: right;}
+.css_hh_sunday_tot_ger, .css_hh_sunday_tot_ger:hover {text-align: ;text-align: right;}
+.css_sal_sunday_label, .css_sal_sunday_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_sal_sunday_grid_line, .css_sal_sunday_grid_line:hover {vertical-align: top;text-align: right;}
+.css_sal_sunday_tot_ger, .css_sal_sunday_tot_ger:hover {text-align: ;text-align: right;}
+.css_hh_offday_label, .css_hh_offday_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_hh_offday_grid_line, .css_hh_offday_grid_line:hover {vertical-align: top;text-align: right;}
+.css_hh_offday_tot_ger, .css_hh_offday_tot_ger:hover {text-align: ;text-align: right;}
+.css_sal_holiday_label, .css_sal_holiday_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_sal_holiday_grid_line, .css_sal_holiday_grid_line:hover {vertical-align: top;text-align: right;}
+.css_sal_holiday_tot_ger, .css_sal_holiday_tot_ger:hover {text-align: ;text-align: right;}
+.css_sal_leavetype_label, .css_sal_leavetype_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_sal_leavetype_grid_line, .css_sal_leavetype_grid_line:hover {vertical-align: top;text-align: right;}
+.css_sal_leavetype_tot_ger, .css_sal_leavetype_tot_ger:hover {text-align: ;text-align: right;}
+.css_ot_hh_w_label, .css_ot_hh_w_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_ot_hh_w_grid_line, .css_ot_hh_w_grid_line:hover {vertical-align: top;text-align: right;}
+.css_ot_hh_w_tot_ger, .css_ot_hh_w_tot_ger:hover {text-align: ;text-align: right;}
+.css_ot_hh_w_pm_label, .css_ot_hh_w_pm_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_ot_hh_w_pm_grid_line, .css_ot_hh_w_pm_grid_line:hover {vertical-align: top;text-align: right;}
+.css_ot_hh_w_pm_tot_ger, .css_ot_hh_w_pm_tot_ger:hover {text-align: ;text-align: right;}
+.css_ot_hh_h_label, .css_ot_hh_h_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_ot_hh_h_grid_line, .css_ot_hh_h_grid_line:hover {vertical-align: top;text-align: right;}
+.css_ot_hh_h_tot_ger, .css_ot_hh_h_tot_ger:hover {text-align: ;text-align: right;}
+.css_ot_hh_h_pm_label, .css_ot_hh_h_pm_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_ot_hh_h_pm_grid_line, .css_ot_hh_h_pm_grid_line:hover {vertical-align: top;text-align: right;}
+.css_ot_hh_h_pm_tot_ger, .css_ot_hh_h_pm_tot_ger:hover {text-align: ;text-align: right;}
+.css_ot_hh_r_label, .css_ot_hh_r_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_ot_hh_r_grid_line, .css_ot_hh_r_grid_line:hover {vertical-align: top;text-align: right;}
+.css_ot_hh_r_tot_ger, .css_ot_hh_r_tot_ger:hover {text-align: ;text-align: right;}
+.css_ot_hh_r_pm_label, .css_ot_hh_r_pm_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_ot_hh_r_pm_grid_line, .css_ot_hh_r_pm_grid_line:hover {vertical-align: top;text-align: right;}
+.css_ot_hh_r_pm_tot_ger, .css_ot_hh_r_pm_tot_ger:hover {text-align: ;text-align: right;}
+.css_ot_hh_o_label, .css_ot_hh_o_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_ot_hh_o_grid_line, .css_ot_hh_o_grid_line:hover {vertical-align: top;text-align: right;}
+.css_ot_hh_o_tot_ger, .css_ot_hh_o_tot_ger:hover {text-align: ;text-align: right;}
+.css_ot_hh_o_pm_label, .css_ot_hh_o_pm_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_ot_hh_o_pm_grid_line, .css_ot_hh_o_pm_grid_line:hover {vertical-align: top;text-align: right;}
+.css_ot_hh_o_pm_tot_ger, .css_ot_hh_o_pm_tot_ger:hover {text-align: ;text-align: right;}
+.css_incentive_desc_label, .css_incentive_desc_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_incentive_desc_grid_line, .css_incentive_desc_grid_line:hover {vertical-align: top;text-align: left;}
+.css_rappel_desc_label, .css_rappel_desc_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_rappel_desc_grid_line, .css_rappel_desc_grid_line:hover {vertical-align: top;text-align: left;}
+.css_sal_brut_reg_S_sub_tot, .css_sal_brut_reg_S_sub_tot:hover {text-align: left;text-align: right;font-weight:bold;}
+.css_sal_brut_reg_S_tot_ger, .css_sal_brut_reg_S_tot_ger:hover {text-align: right;}
+.css_income_workday_ot_S_sub_tot, .css_income_workday_ot_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_income_workday_ot_S_tot_ger, .css_income_workday_ot_S_tot_ger:hover {text-align: right;}
+.css_income_holiday_ot_S_sub_tot, .css_income_holiday_ot_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_income_holiday_ot_S_tot_ger, .css_income_holiday_ot_S_tot_ger:hover {text-align: right;}
+.css_income_restday_ot_S_sub_tot, .css_income_restday_ot_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_income_restday_ot_S_tot_ger, .css_income_restday_ot_S_tot_ger:hover {text-align: right;}
+.css_income_offday_ot_S_sub_tot, .css_income_offday_ot_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_income_offday_ot_S_tot_ger, .css_income_offday_ot_S_tot_ger:hover {text-align: right;}
+.css_incentive_S_sub_tot, .css_incentive_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_incentive_S_tot_ger, .css_incentive_S_tot_ger:hover {text-align: right;}
+.css_income_comm_S_sub_tot, .css_income_comm_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_income_comm_S_tot_ger, .css_income_comm_S_tot_ger:hover {text-align: right;}
+.css_rappel_S_sub_tot, .css_rappel_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_rappel_S_tot_ger, .css_rappel_S_tot_ger:hover {text-align: right;}
+.css_tax_cass_S_sub_tot, .css_tax_cass_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_tax_cass_S_tot_ger, .css_tax_cass_S_tot_ger:hover {text-align: right;}
+.css_tax_cfgdct_S_sub_tot, .css_tax_cfgdct_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_tax_cfgdct_S_tot_ger, .css_tax_cfgdct_S_tot_ger:hover {text-align: right;}
+.css_tax_fdu_S_sub_tot, .css_tax_fdu_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_tax_fdu_S_tot_ger, .css_tax_fdu_S_tot_ger:hover {text-align: right;}
+.css_tax_iris_S_sub_tot, .css_tax_iris_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_tax_iris_S_tot_ger, .css_tax_iris_S_tot_ger:hover {text-align: right;}
+.css_tax_ona_S_sub_tot, .css_tax_ona_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_tax_ona_S_tot_ger, .css_tax_ona_S_tot_ger:hover {text-align: right;}
+.css_tax_iric_S_sub_tot, .css_tax_iric_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_tax_iric_S_tot_ger, .css_tax_iric_S_tot_ger:hover {text-align: right;}
+.css_dedeuct_cons_S_sub_tot, .css_dedeuct_cons_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_dedeuct_cons_S_tot_ger, .css_dedeuct_cons_S_tot_ger:hover {text-align: right;}
+.css_loan_deduction_S_sub_tot, .css_loan_deduction_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_loan_deduction_S_tot_ger, .css_loan_deduction_S_tot_ger:hover {text-align: right;}
+.css_loan_deduction_bank_S_sub_tot, .css_loan_deduction_bank_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_loan_deduction_bank_S_tot_ger, .css_loan_deduction_bank_S_tot_ger:hover {text-align: right;}
+.css_other_deduct_S_sub_tot, .css_other_deduct_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_other_deduct_S_tot_ger, .css_other_deduct_S_tot_ger:hover {text-align: right;}
+.css_total_deduct_S_sub_tot, .css_total_deduct_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_total_deduct_S_tot_ger, .css_total_deduct_S_tot_ger:hover {text-align: right;}
+.css_sal_net_S_sub_tot, .css_sal_net_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_sal_net_S_tot_ger, .css_sal_net_S_tot_ger:hover {text-align: right;}
+.css_userid_int_D_sub_tot, .css_userid_int_D_sub_tot:hover {text-align: left;text-align: right;font-weight:bold;}
+.css_userid_int_D_tot_ger, .css_userid_int_D_tot_ger:hover {text-align: right;font-weight:bold;}
+.css_rate_salf_S_sub_tot, .css_rate_salf_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_rate_salf_S_tot_ger, .css_rate_salf_S_tot_ger:hover {text-align: right;}
+.css_rate_work_S_sub_tot, .css_rate_work_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_rate_work_S_tot_ger, .css_rate_work_S_tot_ger:hover {text-align: right;}
+.css_income_workday_S_sub_tot, .css_income_workday_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_income_workday_S_tot_ger, .css_income_workday_S_tot_ger:hover {text-align: right;}
+.css_income_holiday_S_sub_tot, .css_income_holiday_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_income_holiday_S_tot_ger, .css_income_holiday_S_tot_ger:hover {text-align: right;}
+.css_income_restday_S_sub_tot, .css_income_restday_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_income_restday_S_tot_ger, .css_income_restday_S_tot_ger:hover {text-align: right;}
+.css_income_offday_S_sub_tot, .css_income_offday_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_income_offday_S_tot_ger, .css_income_offday_S_tot_ger:hover {text-align: right;}
+.css_hh_sunday_S_sub_tot, .css_hh_sunday_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_hh_sunday_S_tot_ger, .css_hh_sunday_S_tot_ger:hover {text-align: right;}
+.css_sal_sunday_S_sub_tot, .css_sal_sunday_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_sal_sunday_S_tot_ger, .css_sal_sunday_S_tot_ger:hover {text-align: right;}
+.css_hh_offday_S_sub_tot, .css_hh_offday_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_hh_offday_S_tot_ger, .css_hh_offday_S_tot_ger:hover {text-align: right;}
+.css_sal_holiday_S_sub_tot, .css_sal_holiday_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_sal_holiday_S_tot_ger, .css_sal_holiday_S_tot_ger:hover {text-align: right;}
+.css_sal_leavetype_S_sub_tot, .css_sal_leavetype_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_sal_leavetype_S_tot_ger, .css_sal_leavetype_S_tot_ger:hover {text-align: right;}
+.css_ot_hh_w_S_sub_tot, .css_ot_hh_w_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_ot_hh_w_S_tot_ger, .css_ot_hh_w_S_tot_ger:hover {text-align: right;}
+.css_ot_hh_w_pm_S_sub_tot, .css_ot_hh_w_pm_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_ot_hh_w_pm_S_tot_ger, .css_ot_hh_w_pm_S_tot_ger:hover {text-align: right;}
+.css_ot_hh_h_S_sub_tot, .css_ot_hh_h_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_ot_hh_h_S_tot_ger, .css_ot_hh_h_S_tot_ger:hover {text-align: right;}
+.css_ot_hh_h_pm_S_sub_tot, .css_ot_hh_h_pm_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_ot_hh_h_pm_S_tot_ger, .css_ot_hh_h_pm_S_tot_ger:hover {text-align: right;}
+.css_ot_hh_r_S_sub_tot, .css_ot_hh_r_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_ot_hh_r_S_tot_ger, .css_ot_hh_r_S_tot_ger:hover {text-align: right;}
+.css_ot_hh_r_pm_S_sub_tot, .css_ot_hh_r_pm_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_ot_hh_r_pm_S_tot_ger, .css_ot_hh_r_pm_S_tot_ger:hover {text-align: right;}
+.css_ot_hh_o_S_sub_tot, .css_ot_hh_o_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_ot_hh_o_S_tot_ger, .css_ot_hh_o_S_tot_ger:hover {text-align: right;}
+.css_ot_hh_o_pm_S_sub_tot, .css_ot_hh_o_pm_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_ot_hh_o_pm_S_tot_ger, .css_ot_hh_o_pm_S_tot_ger:hover {text-align: right;}

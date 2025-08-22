@@ -1,0 +1,377 @@
+<?php
+
+class grid_TMS_total
+{
+   var $Db;
+   var $Erro;
+   var $Ini;
+   var $Lookup;
+
+   var $nm_data;
+
+   //----- 
+   function __construct($sc_page)
+   {
+      $this->sc_page = $sc_page;
+      $this->nm_data = new nm_data("en_us");
+      if (isset($_SESSION['sc_session'][$this->sc_page]['grid_TMS']['campos_busca']) && !empty($_SESSION['sc_session'][$this->sc_page]['grid_TMS']['campos_busca']))
+      { 
+          $Busca_temp = $_SESSION['sc_session'][$this->Ini->sc_page]['grid_TMS']['campos_busca'];
+          if ($_SESSION['scriptcase']['charset'] != "UTF-8")
+          {
+              $Busca_temp = NM_conv_charset($Busca_temp, $_SESSION['scriptcase']['charset'], "UTF-8");
+          }
+          $this->userid_int = (isset($Busca_temp['userid_int'])) ? $Busca_temp['userid_int'] : ""; 
+          $tmp_pos = (is_string($this->userid_int)) ? strpos($this->userid_int, "##@@") : false;
+          if ($tmp_pos !== false && !is_array($this->userid_int))
+          {
+              $this->userid_int = substr($this->userid_int, 0, $tmp_pos);
+          }
+          $this->dept = (isset($Busca_temp['dept'])) ? $Busca_temp['dept'] : ""; 
+          $tmp_pos = (is_string($this->dept)) ? strpos($this->dept, "##@@") : false;
+          if ($tmp_pos !== false && !is_array($this->dept))
+          {
+              $this->dept = substr($this->dept, 0, $tmp_pos);
+          }
+          $this->username = (isset($Busca_temp['username'])) ? $Busca_temp['username'] : ""; 
+          $tmp_pos = (is_string($this->username)) ? strpos($this->username, "##@@") : false;
+          if ($tmp_pos !== false && !is_array($this->username))
+          {
+              $this->username = substr($this->username, 0, $tmp_pos);
+          }
+          $this->sal_net = (isset($Busca_temp['sal_net'])) ? $Busca_temp['sal_net'] : ""; 
+          $tmp_pos = (is_string($this->sal_net)) ? strpos($this->sal_net, "##@@") : false;
+          if ($tmp_pos !== false && !is_array($this->sal_net))
+          {
+              $this->sal_net = substr($this->sal_net, 0, $tmp_pos);
+          }
+          $this->tax_tms = (isset($Busca_temp['tax_tms'])) ? $Busca_temp['tax_tms'] : ""; 
+          $tmp_pos = (is_string($this->tax_tms)) ? strpos($this->tax_tms, "##@@") : false;
+          if ($tmp_pos !== false && !is_array($this->tax_tms))
+          {
+              $this->tax_tms = substr($this->tax_tms, 0, $tmp_pos);
+          }
+          $this->tax_stamp = (isset($Busca_temp['tax_stamp'])) ? $Busca_temp['tax_stamp'] : ""; 
+          $tmp_pos = (is_string($this->tax_stamp)) ? strpos($this->tax_stamp, "##@@") : false;
+          if ($tmp_pos !== false && !is_array($this->tax_stamp))
+          {
+              $this->tax_stamp = substr($this->tax_stamp, 0, $tmp_pos);
+          }
+      } 
+   }
+
+   //---- 
+   function quebra_geral_sc_groupby_dept($res_limit=false, $res_export=false)
+   {
+      global $nada, $nm_lang ;
+      if ($_SESSION['sc_session'][$this->Ini->sc_page]['grid_TMS']['contr_total_geral'] == "OK") 
+      { 
+          return; 
+      } 
+      $_SESSION['sc_session'][$this->Ini->sc_page]['grid_TMS']['tot_geral'] = array() ;  
+      $nm_comando = "select count(*), count(distinct userid_int), sum(sal_net), sum(tax_tms), sum(tax_stamp) from " . $this->Ini->nm_tabela . " " . $_SESSION['sc_session'][$this->Ini->sc_page]['grid_TMS']['where_pesq']; 
+      $nm_comando = $this->Ajust_statistic($nm_comando);
+      $_SESSION['scriptcase']['sc_sql_ult_comando'] = $nm_comando;
+      $_SESSION['scriptcase']['sc_sql_ult_conexao'] = '';
+      if (!$rt = $this->Db->Execute($nm_comando)) 
+      { 
+         $this->Erro->mensagem (__FILE__, __LINE__, "banco", $this->Ini->Nm_lang['lang_errm_dber'], $this->Db->ErrorMsg()); 
+         exit ; 
+      }
+      if ((isset($this->Ini->nm_bases_vfp) && in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_vfp)) || (isset($this->Ini->nm_bases_odbc) && in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_odbc)))
+      {
+          $vl_statistic = $this->Calc_statist_manual_sc_groupby_dept($_SESSION['sc_session'][$this->Ini->sc_page]['grid_TMS']['where_pesq']);
+          foreach ($vl_statistic as $ind => $val)
+          {
+              $rt->fields[$ind] = $val;
+          }
+      }
+      if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_access))
+      {
+          $vl_statistic = $this->Calc_statist_manual_sc_groupby_dept($_SESSION['sc_session'][$this->Ini->sc_page]['grid_TMS']['where_pesq']);
+          foreach ($vl_statistic as $ind => $val)
+          {
+              $rt->fields[$ind] = $val;
+          }
+      }
+      $_SESSION['sc_session'][$this->Ini->sc_page]['grid_TMS']['tot_geral'][0] = "" . $this->Ini->Nm_lang['lang_msgs_totl'] . ""; 
+      $_SESSION['sc_session'][$this->Ini->sc_page]['grid_TMS']['tot_geral'][1] = $rt->fields[0] ; 
+      $rt->fields[1] = str_replace(",", ".", $rt->fields[1]);
+      $rt->fields[1] = (string)$rt->fields[1]; 
+      $_SESSION['sc_session'][$this->Ini->sc_page]['grid_TMS']['tot_geral'][2] = $rt->fields[1]; 
+      $rt->fields[2] = str_replace(",", ".", $rt->fields[2]);
+      $rt->fields[2] = (string)$rt->fields[2]; 
+      $_SESSION['sc_session'][$this->Ini->sc_page]['grid_TMS']['tot_geral'][3] = $rt->fields[2]; 
+      $rt->fields[3] = str_replace(",", ".", $rt->fields[3]);
+      $rt->fields[3] = (string)$rt->fields[3]; 
+      $_SESSION['sc_session'][$this->Ini->sc_page]['grid_TMS']['tot_geral'][4] = $rt->fields[3]; 
+      $rt->fields[4] = str_replace(",", ".", $rt->fields[4]);
+      $rt->fields[4] = (string)$rt->fields[4]; 
+      $_SESSION['sc_session'][$this->Ini->sc_page]['grid_TMS']['tot_geral'][5] = $rt->fields[4]; 
+      $rt->Close(); 
+      $_SESSION['sc_session'][$this->Ini->sc_page]['grid_TMS']['contr_total_geral'] = "OK";
+   } 
+
+
+   function Calc_statist_manual_sc_groupby_dept($sql_where="")
+   {
+       $comando  = "select userid_int from " . $this->Ini->nm_tabela . "  " .  $sql_where;
+       $_SESSION['scriptcase']['sc_sql_ult_comando'] = $comando;
+       $_SESSION['scriptcase']['sc_sql_ult_conexao'] = '';
+       if (!$rstat = $this->Db->Execute($comando))
+       {
+          $this->Erro->mensagem(__FILE__, __LINE__, "banco", $this->Ini->Nm_lang['lang_errm_dber'], $this->Db->ErrorMsg()); 
+          exit;
+       }
+       $cmp_0 = array();
+       while (!$rstat->EOF)
+       {
+           $rstat->fields[0] = str_replace(",", ".", $rstat->fields[0]);
+           $cmp_0[] = $rstat->fields[0];
+           $rstat->MoveNext();
+       }
+       $rstat->Close();
+       $arr_result = array();
+       $tmp = sc_statistic($cmp_0, $this->Ini->nm_tp_variance);
+       $arr_result[1] = $tmp[5];
+       return $arr_result;
+   }
+   //-----  dept
+   function quebra_dept_sc_groupby_dept($dept, $arg_sum_dept) 
+   {
+      global $tot_dept;
+      $tot_dept = array() ;  
+      $nm_comando = "select count(*), count(distinct userid_int), sum(sal_net), sum(tax_tms), sum(tax_stamp) from " . $this->Ini->nm_tabela . " " . $_SESSION['sc_session'][$this->Ini->sc_page]['grid_TMS']['where_pesq']; 
+      $nm_comando = $this->Ajust_statistic($nm_comando);
+      if (empty($_SESSION['sc_session'][$this->Ini->sc_page]['grid_TMS']['where_pesq'])) 
+      { 
+         $nm_comando .= " where dept" . $arg_sum_dept ; 
+      } 
+      else 
+      { 
+         $nm_comando .= " and dept" . $arg_sum_dept ; 
+      } 
+      if (empty($_SESSION['sc_session'][$this->Ini->sc_page]['grid_TMS']['where_pesq'])) 
+      { 
+         $where_ok = " where dept" . $arg_sum_dept ; 
+      } 
+      else 
+      { 
+         $where_ok = $_SESSION['sc_session'][$this->Ini->sc_page]['grid_TMS']['where_pesq'] . " and dept" . $arg_sum_dept ; 
+      } 
+      $_SESSION['scriptcase']['sc_sql_ult_comando'] = $nm_comando;
+      $_SESSION['scriptcase']['sc_sql_ult_conexao'] = '';
+      if (!$rt = $this->Db->Execute($nm_comando)) 
+      { 
+         $this->Erro->mensagem (__FILE__, __LINE__, "banco", $this->Ini->Nm_lang['lang_errm_dber'], $this->Db->ErrorMsg()); 
+         exit ; 
+      }  
+      if ((isset($this->Ini->nm_bases_vfp) && in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_vfp)) || (isset($this->Ini->nm_bases_odbc) && in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_odbc)))
+      {
+          $vl_statistic = $this->Calc_statist_manual_sc_groupby_dept($where_ok);
+          foreach ($vl_statistic as $ind => $val)
+          {
+              $rt->fields[$ind] = $val;
+          }
+      }
+      if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_access))
+      {
+          $vl_statistic = $this->Calc_statist_manual_sc_groupby_dept($where_ok);
+          foreach ($vl_statistic as $ind => $val)
+          {
+              $rt->fields[$ind] = $val;
+          }
+      }
+      if ($_SESSION['sc_session'][$this->Ini->sc_page]['grid_TMS']['opcao'] == "pdf" && isset($_SESSION['nm_session']['sys_wkhtmltopdf_show_html_content']) && $_SESSION['nm_session']['sys_wkhtmltopdf_show_html_content'] == 'Y') {
+          $tot_dept[0] = NM_encode_input(sc_strip_script($dept));
+      }
+      else {
+          $tot_dept[0] = sc_strip_script($dept) ; 
+      }
+      $tot_dept[1] = $rt->fields[0] ; 
+      $rt->fields[1] = str_replace(",", ".", $rt->fields[1]);
+      $tot_dept[2] = (string)$rt->fields[1]; 
+      $rt->fields[2] = str_replace(",", ".", $rt->fields[2]);
+      $tot_dept[3] = (string)$rt->fields[2]; 
+      $rt->fields[3] = str_replace(",", ".", $rt->fields[3]);
+      $tot_dept[4] = (string)$rt->fields[3]; 
+      $rt->fields[4] = str_replace(",", ".", $rt->fields[4]);
+      $tot_dept[5] = (string)$rt->fields[4]; 
+      $rt->Close(); 
+   } 
+
+   function Ajust_statistic($comando)
+   {
+      if ((isset($this->Ini->nm_bases_vfp) && in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_vfp)) || (isset($this->Ini->nm_bases_odbc) && in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_odbc)))
+      {
+          $comando = str_replace(array('count(distinct ','varp(','stdevp(','variance(','stddev('), array('sum(','sum(','sum(','sum(','sum('), $comando);
+      }
+      if ($this->Ini->nm_tp_variance == "P")
+      {
+          if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_sqlite) && $this->Ini->sqlite_version == "old")
+          {
+              $comando = str_replace(array('variance(','stddev('), array('sum(','sum('), $comando);
+          }
+      }
+      if ($this->Ini->nm_tp_variance == "A")
+      {
+          if (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_sqlite) && $this->Ini->sqlite_version == "old")
+          {
+              $comando = str_replace(array('variance(','stddev('), array('sum(','sum('), $comando);
+          }
+          elseif (in_array(strtolower($this->Ini->nm_tpbanco), $this->Ini->nm_bases_mysql))
+          {
+              $comando = str_replace(array('variance(','stddev('), array('var_samp(','stddev_samp('), $comando);
+          }
+      }
+      return $comando;
+   }
+
+   function nm_conv_data_db($dt_in, $form_in, $form_out)
+   {
+       $dt_out = $dt_in;
+       if (strtoupper($form_in) == "DB_FORMAT") {
+           if ($dt_out == "null" || $dt_out == "")
+           {
+               $dt_out = "";
+               return $dt_out;
+           }
+           $form_in = "AAAA-MM-DD";
+       }
+       if (strtoupper($form_out) == "DB_FORMAT") {
+           if (empty($dt_out))
+           {
+               $dt_out = "null";
+               return $dt_out;
+           }
+           $form_out = "AAAA-MM-DD";
+       }
+       if (strtoupper($form_out) == "SC_FORMAT_REGION") {
+           $this->nm_data->SetaData($dt_in, strtoupper($form_in));
+           $prep_out  = (strpos(strtolower($form_in), "dd") !== false) ? "dd" : "";
+           $prep_out .= (strpos(strtolower($form_in), "mm") !== false) ? "mm" : "";
+           $prep_out .= (strpos(strtolower($form_in), "aa") !== false) ? "aaaa" : "";
+           $prep_out .= (strpos(strtolower($form_in), "yy") !== false) ? "aaaa" : "";
+           return $this->nm_data->FormataSaida($this->nm_data->FormatRegion("DT", $prep_out));
+       }
+       else {
+           nm_conv_form_data($dt_out, $form_in, $form_out);
+           return $dt_out;
+       }
+   }
+   function nm_gera_mask(&$nm_campo, $nm_mask)
+   { 
+      $trab_campo = $nm_campo;
+      $trab_mask  = $nm_mask;
+      $tam_campo  = strlen($nm_campo);
+      $trab_saida = "";
+      $str_highlight_ini = "";
+      $str_highlight_fim = "";
+      if(substr($nm_campo, 0, 23) == '<div class="highlight">' && substr($nm_campo, -6) == '</div>')
+      {
+           $str_highlight_ini = substr($nm_campo, 0, 23);
+           $str_highlight_fim = substr($nm_campo, -6);
+
+           $trab_campo = substr($nm_campo, 23, -6);
+           $tam_campo  = strlen($trab_campo);
+      }      $mask_num = false;
+      for ($x=0; $x < strlen($trab_mask); $x++)
+      {
+          if (substr($trab_mask, $x, 1) == "#")
+          {
+              $mask_num = true;
+              break;
+          }
+      }
+      if ($mask_num )
+      {
+          $ver_duas = explode(";", $trab_mask);
+          if (isset($ver_duas[1]) && !empty($ver_duas[1]))
+          {
+              $cont1 = count(explode("#", $ver_duas[0])) - 1;
+              $cont2 = count(explode("#", $ver_duas[1])) - 1;
+              if ($tam_campo >= $cont2)
+              {
+                  $trab_mask = $ver_duas[1];
+              }
+              else
+              {
+                  $trab_mask = $ver_duas[0];
+              }
+          }
+          $tam_mask = strlen($trab_mask);
+          $xdados = 0;
+          for ($x=0; $x < $tam_mask; $x++)
+          {
+              if (substr($trab_mask, $x, 1) == "#" && $xdados < $tam_campo)
+              {
+                  $trab_saida .= substr($trab_campo, $xdados, 1);
+                  $xdados++;
+              }
+              elseif ($xdados < $tam_campo)
+              {
+                  $trab_saida .= substr($trab_mask, $x, 1);
+              }
+          }
+          if ($xdados < $tam_campo)
+          {
+              $trab_saida .= substr($trab_campo, $xdados);
+          }
+          $nm_campo = $str_highlight_ini . $trab_saida . $str_highlight_ini;
+          return;
+      }
+      for ($ix = strlen($trab_mask); $ix > 0; $ix--)
+      {
+           $char_mask = substr($trab_mask, $ix - 1, 1);
+           if ($char_mask != "x" && $char_mask != "z")
+           {
+               $trab_saida = $char_mask . $trab_saida;
+           }
+           else
+           {
+               if ($tam_campo != 0)
+               {
+                   $trab_saida = substr($trab_campo, $tam_campo - 1, 1) . $trab_saida;
+                   $tam_campo--;
+               }
+               else
+               {
+                   $trab_saida = "0" . $trab_saida;
+               }
+           }
+      }
+      if ($tam_campo != 0)
+      {
+          $trab_saida = substr($trab_campo, 0, $tam_campo) . $trab_saida;
+          $trab_mask  = str_repeat("z", $tam_campo) . $trab_mask;
+      }
+   
+      $iz = 0; 
+      for ($ix = 0; $ix < strlen($trab_mask); $ix++)
+      {
+           $char_mask = substr($trab_mask, $ix, 1);
+           if ($char_mask != "x" && $char_mask != "z")
+           {
+               if ($char_mask == "." || $char_mask == ",")
+               {
+                   $trab_saida = substr($trab_saida, 0, $iz) . substr($trab_saida, $iz + 1);
+               }
+               else
+               {
+                   $iz++;
+               }
+           }
+           elseif ($char_mask == "x" || substr($trab_saida, $iz, 1) != "0")
+           {
+               $ix = strlen($trab_mask) + 1;
+           }
+           else
+           {
+               $trab_saida = substr($trab_saida, 0, $iz) . substr($trab_saida, $iz + 1);
+           }
+      }
+      $nm_campo = $str_highlight_ini . $trab_saida . $str_highlight_ini;
+   } 
+}
+
+?>

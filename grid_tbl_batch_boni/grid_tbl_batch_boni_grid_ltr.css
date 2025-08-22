@@ -1,0 +1,8 @@
+.css_boni_code_label, .css_boni_code_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_boni_code_grid_line, .css_boni_code_grid_line:hover {vertical-align: top;text-align: left;}
+.css_boni_description_label, .css_boni_description_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_boni_description_grid_line, .css_boni_description_grid_line:hover {vertical-align: top;text-align: left;}
+.css_date_debut_label, .css_date_debut_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_date_debut_grid_line, .css_date_debut_grid_line:hover {vertical-align: top;text-align: center;}
+.css_date_fin_label, .css_date_fin_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_date_fin_grid_line, .css_date_fin_grid_line:hover {vertical-align: top;text-align: center;}

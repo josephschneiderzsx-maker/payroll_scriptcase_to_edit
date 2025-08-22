@@ -1,0 +1,18 @@
+.css_tbl_boni_sum_userid_int_label, .css_tbl_boni_sum_userid_int_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_tbl_boni_sum_userid_int_grid_line, .css_tbl_boni_sum_userid_int_grid_line:hover {vertical-align: top;text-align: right;}
+.css_user_lastname_label, .css_user_lastname_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_user_lastname_grid_line, .css_user_lastname_grid_line:hover {vertical-align: top;text-align: right;}
+.css_user_name_label, .css_user_name_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_user_name_grid_line, .css_user_name_grid_line:hover {vertical-align: top;text-align: right;}
+.css_tbl_boni_sum_pay_startdate_label, .css_tbl_boni_sum_pay_startdate_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_tbl_boni_sum_pay_startdate_grid_line, .css_tbl_boni_sum_pay_startdate_grid_line:hover {vertical-align: top;text-align: center;}
+.css_tbl_boni_sum_pay_enddate_label, .css_tbl_boni_sum_pay_enddate_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_tbl_boni_sum_pay_enddate_grid_line, .css_tbl_boni_sum_pay_enddate_grid_line:hover {vertical-align: top;text-align: center;}
+.css_tbl_boni_sum_boni_net_label, .css_tbl_boni_sum_boni_net_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_tbl_boni_sum_boni_net_grid_line, .css_tbl_boni_sum_boni_net_grid_line:hover {vertical-align: top;text-align: right;}
+.css_tbl_boni_sum_boni_net_tot_ger, .css_tbl_boni_sum_boni_net_tot_ger:hover {text-align: ;text-align: right;}
+.css_tbl_boni_sum_bank_number_label, .css_tbl_boni_sum_bank_number_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_tbl_boni_sum_bank_number_grid_line, .css_tbl_boni_sum_bank_number_grid_line:hover {vertical-align: top;text-align: right;}
+.css_tbl_boni_sum_hiredate_label, .css_tbl_boni_sum_hiredate_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_tbl_boni_sum_hiredate_grid_line, .css_tbl_boni_sum_hiredate_grid_line:hover {vertical-align: top;text-align: center;}
+.css_tbl_boni_sum_boni_net_S_tot_ger, .css_tbl_boni_sum_boni_net_S_tot_ger:hover {text-align: right;}

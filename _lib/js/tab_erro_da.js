@@ -1,0 +1,32 @@
+Nm_erro = {
+  "lang_jscr_dcml" : "Desimalar",
+  "lang_jscr_decm" : "Tíggindapart sekund",
+  "lang_jscr_hour" : "Tími",
+  "lang_jscr_iday" : "Dagur",
+  "lang_jscr_intg" : "Heiltal og",
+  "lang_jscr_ivcr" : "Skeivt kreditkortnummar",
+  "lang_jscr_ivdt" : "Feilur í data:",
+  "lang_jscr_ivem" : "Feilur í telduposti",
+  "lang_jscr_ivnb" : "Ógyldugt heiltal",
+  "lang_jscr_ivtm" : "Ógildig tíð",
+  "lang_jscr_ivv2" : "Ógyldig data",
+  "lang_jscr_ivvl" : "Ógyldugt desimaltal",
+  "lang_jscr_maxm" : "Maks",
+  "lang_jscr_maxm_date" : "Seinasta dato",
+  "lang_jscr_minm" : "Min",
+  "lang_jscr_minm_date" : "Fyrsta dato",
+  "lang_jscr_mint" : "Minuttir",
+  "lang_jscr_mnth" : "Mánaður",
+  "lang_jscr_msfr" : "Formularurin skal hava eitt navn",
+  "lang_jscr_mslg" : "Brúkaranavn manglar",
+  "lang_jscr_msob" : "Formularurin skal fava eitt navn",
+  "lang_jscr_mxdg" : "Tal av siffrum er størri enn loyvt",
+  "lang_jscr_mxvl" : "Størri enn mest loyvda longd",
+  "lang_jscr_nnum" : "Feltið er numeriskt",
+  "lang_jscr_nvlf" : "Negativt fortekn skal standa frammanfyri talið",
+  "lang_jscr_reqr" : "Kravt felt",
+  "lang_jscr_secd" : "Sekund",
+  "lang_jscr_wfix" : "- Vilt tú at rætta?"
+};
+
+//-------- Mens USR

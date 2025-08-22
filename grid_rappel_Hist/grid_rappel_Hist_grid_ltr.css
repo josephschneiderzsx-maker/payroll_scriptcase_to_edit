@@ -1,0 +1,21 @@
+.css_userid_int_label, .css_userid_int_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_userid_int_grid_line, .css_userid_int_grid_line:hover {vertical-align: top;text-align: right;}
+.css_username_label, .css_username_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_username_grid_line, .css_username_grid_line:hover {vertical-align: top;text-align: left;}
+.css_pay_startdate_label, .css_pay_startdate_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_pay_startdate_grid_line, .css_pay_startdate_grid_line:hover {vertical-align: top;text-align: center;}
+.css_pay_enddate_label, .css_pay_enddate_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_pay_enddate_grid_line, .css_pay_enddate_grid_line:hover {vertical-align: top;text-align: center;}
+.css_rappel_label, .css_rappel_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_rappel_grid_line, .css_rappel_grid_line:hover {vertical-align: top;text-align: right;}
+.css_rappel_tot_ger, .css_rappel_tot_ger:hover {text-align: ;text-align: right;}
+.css_rappel_desc_label, .css_rappel_desc_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_rappel_desc_grid_line, .css_rappel_desc_grid_line:hover {vertical-align: top;text-align: left;}
+.css_hiredate_label, .css_hiredate_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_hiredate_grid_line, .css_hiredate_grid_line:hover {vertical-align: top;text-align: center;}
+.css_dept_label, .css_dept_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_dept_grid_line, .css_dept_grid_line:hover {vertical-align: top;text-align: left;}
+.css_designation_label, .css_designation_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_designation_grid_line, .css_designation_grid_line:hover {vertical-align: top;text-align: left;}
+.css_rappel_S_sub_tot, .css_rappel_S_sub_tot:hover {text-align: left;text-align: right;}
+.css_rappel_S_tot_ger, .css_rappel_S_tot_ger:hover {text-align: right;}

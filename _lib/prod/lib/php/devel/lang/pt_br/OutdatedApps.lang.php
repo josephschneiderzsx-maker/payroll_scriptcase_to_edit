@@ -1,0 +1,36 @@
+<?php 
+$nm_lang['page_title']                      = "Aplicações incompatíveis";
+$nm_lang['outdate_apps_message_ok']         = "Verificação realizada com sucesso.";
+$nm_lang['outdate_apps_btn_close']          = "Fechar";
+$nm_lang['outdate_apps_btn_back']           = "Voltar";
+$nm_lang['outdate_apps_label_dir']          = "Diretório";
+$nm_lang['outdate_apps_label_apps']         = "Aplicações";
+$nm_lang['outdate_apps_label_view']         = "Ver";
+$nm_lang['outdate_apps_label_app']          = "Aplicação";
+$nm_lang['outdate_apps_label_app_prod_ver'] = "Versão da publicação";
+$nm_lang['outdate_apps_label_prod_ver']     = "Versão deste ambiente";
+$nm_lang['outdate_apps_label_scanner']      = "Verificar";
+$nm_lang['outdate_apps_label_date']         = "Última verificação";
+$nm_lang['outdate_apps_btn_view']           = "Ver incompatibilidades";
+$nm_lang['outdate_apps_help_app_prod']      = "Versão do ambiente em desenvolvimento do Scriptcase no qual esta aplicação foi publicada.";
+$nm_lang['outdate_apps_help_prod']          = "Versão do ambiente de produção que está sendo utilizado.";
+$nm_lang['outdate_apps_label_solution']     = "Solução";
+$nm_lang['outdate_apps_label_deploy']       = "Publicar a aplicação novamente";
+$nm_lang['outdate_apps_label_update']       = "Atualizar este ambiente de produção";
+$nm_lang['outdate_apps_empty']              = "Para verificar se existem aplicações incompatíveis, é necessário adicionar um diretório válido. Clique no botão abaixo para adicionar um diretório.";
+$nm_lang['outdate_apps_btn_app_dir']        = "Adicionar diretório";
+$nm_lang['outdate_apps_label_pub_ok']       = "Publicação compatível";
+$nm_lang['outdate_apps_not_verified']       = "Não verificado";
+$nm_lang['outdate_apps_dir_err']            = "Diretório inexistente";
+$nm_lang['outdate_apps_dir_not_foud']       = "Diretório da aplicação não existe";
+$nm_lang['outdate_apps_app_obsolete']       = "Aplicação obsoleta";
+$nm_lang['outdate_apps_app_not_found']      = "Aplicação não existe";
+$nm_lang['outdate_apps_app_label_not_found']= "Aplicações excluídas";
+$nm_lang['outdate_apps_dir_not_sc']         = "Diretório incompatível";
+$nm_lang['outdate_apps_app_deleted']        = "Item removido com sucesso.";
+$nm_lang['outdate_apps_general_err']        = "Ocorreu um erro inesperado.<br> Por favor, contacte o administrador do sistema.";
+$nm_lang['outdate_apps_delete_app']         = "Remover";
+$nm_lang['outdate_apps_btn_cancel']         = "Cancelar";
+$nm_lang['outdate_apps_btn_confirm']        = "Confirmar";
+$nm_lang['outdate_apps_modal_request']      = "Você realmente deseja prosseguir com esta ação?";
+?>

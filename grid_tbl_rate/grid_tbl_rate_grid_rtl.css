@@ -1,0 +1,14 @@
+.css_userid_int_label, .css_userid_int_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_userid_int_grid_line, .css_userid_int_grid_line:hover {vertical-align: top;text-align: right;}
+.css_employee_name_label, .css_employee_name_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_employee_name_grid_line, .css_employee_name_grid_line:hover {vertical-align: top;text-align: right;}
+.css_designation_label, .css_designation_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_designation_grid_line, .css_designation_grid_line:hover {vertical-align: top;text-align: right;}
+.css_dept_label, .css_dept_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_dept_grid_line, .css_dept_grid_line:hover {vertical-align: top;text-align: right;}
+.css_rate_work_label, .css_rate_work_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_rate_work_grid_line, .css_rate_work_grid_line:hover {vertical-align: top;text-align: right;}
+.css_rate_fixed_label, .css_rate_fixed_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_rate_fixed_grid_line, .css_rate_fixed_grid_line:hover {vertical-align: top;text-align: right;}
+.css_rate_cons_label, .css_rate_cons_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_rate_cons_grid_line, .css_rate_cons_grid_line:hover {vertical-align: top;text-align: right;}
